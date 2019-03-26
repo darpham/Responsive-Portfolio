@@ -35,7 +35,7 @@ header {
     margin: 0px 10px 10px 0px;
 }
 #head {
-    width: 960px;
+    width: 67%;
     margin: auto;
 }
 
@@ -116,9 +116,6 @@ footer {
     margin-bottom: 10px;
 }
 
-.submit-button {
-
-}
 
 /* Portfolio Page: Body */
 
@@ -146,3 +143,37 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+@media screen and (min-width: 980px) {
+    body {
+        background: red;
+        width: auto;
+    }
+    header
+}
+
+@media screen and (max-width: 979px) {
+    body {
+        background: blue;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background: green;
+        width: auto;
+    }
+
+    #name {
+        width: 100%;
+    }
+
+    #navBar {
+        width:100%;
+    }
+}
+
+
+/* `max-width`s: `980px`, `768px` and `640px`. */
+  
